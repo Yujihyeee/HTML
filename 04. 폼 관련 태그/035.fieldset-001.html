@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset and legend</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            margin: 20px;
+        }
+        li label{
+            width: 80px;
+            float: left;
+        }
+        fieldset{
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <ul>
+                <li>
+                    <label for="name">name</label>
+                    <input type="text" id="name">
+                </li>
+                <li>
+                    <label for="mail">mail</label>
+                    <input type="text" id="mail">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>login info</legend>
+            <ul>
+                <li>
+                    <label for="id">ID</label>
+                    <input type="text" id="id">
+                </li>
+                <li>
+                    <label for="pwd">password</label>
+                    <input type="text" id="pwd">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
